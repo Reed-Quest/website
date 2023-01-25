@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+    .Mobile-bar--top {
+        background: transparent;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .Mobile-bar-branding-logo {
+      width: 80px;
+      display: none;
+      }
+  }
