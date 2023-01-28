@@ -1,11 +1,139 @@
-@media only screen and (max-width: 600px) {
-    .Mobile-bar--top {
-        background: transparent;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-    }
-    .Mobile-bar-branding-logo {
-      width: 80px;
-      display: none;
-      }
-  }
+.site-title {
+	display: none !important;
+}
+
+.main-navigation div>ul {
+	float: right;
+	width: fit-content;
+	margin: 0 0 5px;
+}
+
+.main-navigation ul>li {
+	display: inline-block;
+}
+
+.main-navigation .page_item_has_children>a:after, .main-navigation .menu-item-has-children>a:after {
+	display: none;
+}
+
+.entry-tags {
+	display: none;
+}
+
+.site-description {
+    margin: 10px 0 10px;
+}
+
+.main-navigation {
+    clear: right;
+    float: right;
+    font-size: 16px;
+    height: inherit;
+    overflow: visible;
+    position: relative;
+    width: 48.5%;
+		margin-bottom: 12px;
+		margin-top: 12px;
+}
+
+.site-heading {
+	padding-bottom: 10px;
+}
+
+.social-navigation {
+    position: relative;
+    bottom: -30px;
+}
+
+.menu-item {
+	border: none !important;
+}
+
+.main-navigation .sub-menu, .main-navigation .children {
+    background: #fff;
+    border: none;
+    border-width: 2px;
+    display: none;
+    left: 0;
+    margin: 0 -2px -2px;
+    padding-left: 0;
+    position: absolute;
+    width: fit-content;
+    z-index: 99999;
+}
+
+.card:hover {
+	background: #ffffff;
+	color: #000000;
+	box-shadow: 0 1px 5px #666;
+}
+
+.entry-title a {
+	color: #000000 !important;
+	transition: none !important;
+}
+
+.card .entry-header {
+    border-top: 3px solid #000;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    -ms-transition: border-color .2s ease;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color 999999999s ease;
+}
+
+.site-feature .entry-header .entry-title a {
+    color: #ffffff !important;
+}
+
+.site-feature {
+    background: #000000;
+}
+
+.nav-links {
+	display: none;
+}
+
+.single .hentry .entry-content {
+    float: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.single .entry-header .entry-meta {
+    float: left;
+    width: 100%;
+}
+
+.single .hentry .entry-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.sharedaddy {
+	display: none;
+}
+
+.comments-area {
+    padding: 50px 0px 50px 0px;
+}
+
+.entry-author {
+	display: none;
+}
+
+.entry-footer {
+	display: none;
+}
+
+.single .hentry .entry-header {
+    float: right;
+    margin: 0 0 20px;
+    width: 100%;
+    position: relative;
+}
+
+.single #page .site-main {
+    padding: 20px 0 0;
+}
