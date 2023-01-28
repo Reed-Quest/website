@@ -21,19 +21,19 @@
 }
 
 .site-description {
-    margin: 10px 0 10px;
+	margin: 10px 0;
 }
 
 .main-navigation {
-    clear: right;
-    float: right;
-    font-size: 16px;
-    height: inherit;
-    overflow: visible;
-    position: relative;
-    width: 48.5%;
-		margin-bottom: 12px;
-		margin-top: 12px;
+	clear: right;
+	float: right;
+	font-size: 16px;
+	height: inherit;
+	overflow: visible;
+	position: relative;
+	width: 48.5%;
+	margin-bottom: 12px;
+	margin-top: 12px;
 }
 
 .site-heading {
@@ -41,8 +41,8 @@
 }
 
 .social-navigation {
-    position: relative;
-    bottom: -30px;
+	position: relative;
+	bottom: -30px;
 }
 
 .menu-item {
@@ -50,16 +50,16 @@
 }
 
 .main-navigation .sub-menu, .main-navigation .children {
-    background: #fff;
-    border: none;
-    border-width: 2px;
-    display: none;
-    left: 0;
-    margin: 0 -2px -2px;
-    padding-left: 0;
-    position: absolute;
-    width: fit-content;
-    z-index: 99999;
+	background: #fff;
+	border: none;
+	border-width: 2px;
+	display: none;
+	left: 0;
+	margin: 0 -2px -2px;
+	padding-left: 0;
+	position: absolute;
+	width: fit-content;
+	z-index: 99999;
 }
 
 .card:hover {
@@ -74,20 +74,20 @@
 }
 
 .card .entry-header {
-    border-top: 3px solid #000;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    -ms-transition: border-color .2s ease;
-    -webkit-transition: border-color .2s ease;
-    transition: border-color 999999999s ease;
+	border-top: 3px solid #000;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	-ms-transition: border-color .2s ease;
+	-webkit-transition: border-color .2s ease;
+	transition: border-color 999999999s ease;
 }
 
 .site-feature .entry-header .entry-title a {
-    color: #ffffff !important;
+	color: #ffffff !important;
 }
 
 .site-feature {
-    background: #000000;
+	background: #000000;
 }
 
 .nav-links {
@@ -95,20 +95,20 @@
 }
 
 .single .hentry .entry-content {
-    float: left;
-    margin-bottom: 20px;
-    width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	width: 100%;
 }
 
 .single .entry-header .entry-meta {
-    float: left;
-    width: 100%;
+	float: left;
+	width: 100%;
 }
 
 .single .hentry .entry-title {
-    font-size: 36px;
-    margin-bottom: 10px;
-    margin-left: 0px;
+	font-size: 36px;
+	margin-bottom: 10px;
+	margin-left: 0;
 }
 
 .sharedaddy {
@@ -116,7 +116,7 @@
 }
 
 .comments-area {
-    padding: 50px 0px 50px 0px;
+	padding: 50px 0;
 }
 
 .entry-author {
@@ -128,12 +128,80 @@
 }
 
 .single .hentry .entry-header {
-    float: right;
-    margin: 0 0 20px;
-    width: 100%;
-    position: relative;
+	float: right;
+	margin: 0 0 20px;
+	width: 100%;
+	position: relative;
 }
 
 .single #page .site-main {
-    padding: 20px 0 0;
+	padding: 20px 0 0;
+}
+
+.main-navigation ul>li a:hover {
+	color: #EB5E28;
+}
+
+.social-navigation a:hover {
+    display: block;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+		color: #eb5e28;
+}
+
+.archive .page-header .page-title, .search .page-header .page-title {
+    display: none;
+}
+
+.archive .page-header, .search .page-header {
+    text-align: left;
+    display: none;
+}
+
+.entry-meta a {
+    color: #1f487e;
+    font-size: 14px;
+    line-height: 2em;
+}
+
+.single .hentry .entry-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    color: #212311;
+}
+
+.site-info a {
+	display: none;
+}
+
+.site-footer .site-info {
+    padding: 40px 0;
+}
+
+@media (max-width: 900px) {
+	.social-navigation {
+		display: none;
+	}
+	.main-navigation {
+		display: none;
+	}
+	.site-feature .entry-header .entry-title a {
+    color: #000000 !important;
+	}
+	.site-feature .entry-header a, .site-feature .entry-header .entry-summary, .site-feature .entry-header .entry-meta, .site-feature .entry-header .entry-meta a, .site-feature .entry-header .entry-title a, .site-feature .entry-header .entry-categories:after {
+    color: #000000;
+}
+	.site-feature .entry-header {
+    background: #ffffff;
+    margin-bottom: 0;
+    padding: 30px;
+    position: relative;
+    width: 100%;
+	}
+	.site-feature {
+    margin-bottom: 0px;
+    position: relative;
+	}
 }
