@@ -176,6 +176,23 @@
 	display: none;
 }
 
+
+.single .post-hero-image {
+    margin-bottom: 20px;
+}
+
+.jp-relatedposts {
+	display: none !important;
+}
+
+.author.vcard {
+	display: none !important;
+}
+
+.single .post-hero-image {
+    border: none;
+}
+
 .site-footer .site-info {
     padding: 40px 0;
 }
