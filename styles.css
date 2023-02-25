@@ -24,6 +24,45 @@
 	margin: 10px 0;
 }
 
+.data-rte-preserve-empty="true" {
+	display: none !important;
+}
+
+.comments-area {
+    padding: 0px 0 !important;
+} 
+
+#wpdcom {
+    margin-left: 0px;
+		max-width: 100%;
+}
+
+#wpdcom .wpd-form .wpd-avatar img, #wpdcom .wpd-form .wpd-avatar img.avatar {
+    max-width: 120px;
+    width: 120px;
+    height: 120px;
+}
+
+#wpdcom .wpd-thread-list {
+    padding: 10px 0;
+}
+
+#comments {
+    margin: 20px auto;
+    color: #333333;
+    font-style: normal;
+    max-width: 100%;
+}
+
+#wpd-bubble-wrapper {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    text-align: center;
+    opacity: 0.9;
+    bottom: 35px;
+}
+
 .main-navigation {
 	clear: right;
 	float: right;
@@ -36,6 +75,16 @@
 	margin-top: 12px;
 }
 
+.m-a-box-container .m-a-box-content {
+		padding: 0px !important;
+    padding-left: 0px !important;
+}
+
+.entry-author {
+    padding: 30px 0;
+    display: none;
+}
+
 .site-heading {
 	padding-bottom: 10px;
 }
@@ -45,8 +94,49 @@
 	bottom: -30px;
 }
 
+.m-a-box-header {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
 .menu-item {
 	border: none !important;
+}
+
+.m-a-box-content.m-a-box-profile .m-a-box-profile-multiauthor {
+    width: 100%;
+    margin-bottom: 1rem !important;
+}
+
+.m-a-box-content.m-a-box-profile .m-a-box-data .m-a-box-bio {
+    margin-top: 10px !important;
+}
+
+.m-a-box-content.m-a-box-profile .m-a-box-data .m-a-box-meta {
+    margin-top: 0px !important;
+    text-align: center;
+    font-size: 70%;
+    opacity: .7;
+}
+
+.m-a-box {
+    width: 100%;
+    margin-top: 20px !important;
+    margin-right: !important;
+    margin-bottom: 0px !!important;
+    margin-left: !important;
+    border-top: 4px;
+    border-top-color: black;
+    border-top-style: solid;
+}
+
+.m-a-box-related[data-related-layout='layout-1'] .m-a-box-related-entries ul li {
+    list-style: none !important;
+    margin-bottom: 0rem !important;
+}
+
+.m-a-box-related[data-related-layout='layout-1'] {
+    margin-top: 5px !important;
 }
 
 .main-navigation .sub-menu, .main-navigation .children {
@@ -66,6 +156,14 @@
 	background: #ffffff;
 	color: #000000;
 	box-shadow: 0 1px 5px #666;
+}
+
+.m-a-box {
+    width: 100%;
+    margin-top: 20px !important;
+    margin-right: !important;
+    margin-bottom: 0px !!!important;
+    margin-left: !important;
 }
 
 .entry-title a {
@@ -119,8 +217,20 @@
 	padding: 50px 0;
 }
 
-.entry-author {
-	display: none;
+.author-bio, .author-heading {
+    float: none;
+    margin-left: 0px;
+    margin-right: auto;
+	  margin-bottom: 10px;
+}
+
+.single .site-main>.post-navigation, .site-main .comment-navigation .nav-links, .pingback .comment-body {
+    border-color: #000;
+    display: none;
+}
+
+.author-meta, .entry-author {
+    padding: 30px 0;
 }
 
 .entry-footer {
